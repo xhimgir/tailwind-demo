@@ -2,7 +2,7 @@
 
 tailwind-demo is sample project created with tailwind css with webpack and alpinejs.
 
-# Technology Used
+## Technology Used
 The following Technology used in this Sample Project Directory.
 #### webpack
 #### Tailwind CSS
