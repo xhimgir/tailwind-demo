@@ -1,0 +1,33 @@
+{
+  "name": "himani",
+  "version": "1.0.0",
+  "description": "Powered by Saurabh Kumar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode=development --open",
+    "build": "export NODE_ENV=production && webpack",
+    "build-css": "tailwindcss build style.css -o public/style.css",
+    "alpinjs-dev": "npx esbuild src/index.js --outfile=dist/alpine-bundle.js --bundle"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.3",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.23",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "alpinejs": "^3.9.3"
+  }
+}
